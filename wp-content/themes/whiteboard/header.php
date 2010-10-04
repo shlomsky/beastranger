@@ -151,21 +151,21 @@
 	
 	<div id="bios">
 		<li>
-			<img src="//images/bio_brian.png"><br />
+			<img src="/images/bio_brian.png"><br />
 			Brian Andrich<br />
 			25 years old<br />
 			Los Angeles, CA<br />
 			<a href="http://brianandrich.com">Website</a>
 		</li>
 		<li>
-			<img src="//images/bio_lillian.png"><br />
+			<img src="/images/bio_lillian.png"><br />
 			Lillian Meredith<br />
 			25 years old<br />
 			New York, NY<br />
 			<a href="http://lillianmeredith.com">Website</a>
 		</li>
 		<li>
-			<img src="//images/bio_truck.png"><br />
+			<img src="/images/bio_truck.png"><br />
 			Ford Ranger<br />
 			10 years old<br />
 			Dearborn, MI<br />
