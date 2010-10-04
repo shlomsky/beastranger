@@ -169,7 +169,7 @@
 			Ford Ranger<br />
 			10 years old<br />
 			Dearborn, MI<br />
-			<a href="http://ford.com">Website</a>
+			
 		</li>
 	</div><!-- #bios-->
 	
