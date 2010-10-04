@@ -92,52 +92,52 @@
 				<div id="menu">
 					
 					<?php 
-						if ( is_page('2')) {
-							echo "<li><a href='/'><img src='images/atruckpilgrimage_active.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='images/suggestions.png' border='0' /></a></li>";
-						}
+						if ( is_page('2')) {  ?>
+							echo "<li><a href='<?php bloginfo('url'); ?>'><img src='images/atruckpilgrimage_active.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='images/photographs.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/suggestions'><img src='images/suggestions.png' border='0' /></a></li>";
+					<?php	}
 						
-						elseif ( is_category('3')) {
-							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate_active.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
-						}
+						elseif ( is_category('3')) { ?>
+							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate_active.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
+					<?php	}
 						
-						elseif ( is_category('4')) {
-							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='/images/poetry_active.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
-						}
+						elseif ( is_category('4')) { ?>
+							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry_active.png' border='0' /></a></li>
+							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
+					<?php	}
 						
-						elseif ( is_category('5')) {
-							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='/images/photographs_active.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
-						}
+						elseif ( is_category('5')) { ?>
+							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs_active.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
+					<?php	}
 						
-						elseif ( is_page('5')) {
-							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='/images/suggestions_active.png' border='0' /></a></li>";
-						}
+						elseif ( is_page('5')) { ?>
+							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/suggestions'><img src='/images/suggestions_active.png' border='0' /></a></li>";
+					<?php	}
 						
-						else {
-							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
+						else { ?>
+							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
+								  <li><a href='<?php bloginfo('url'); ?>/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
 						}
 						
 					?>
@@ -151,21 +151,21 @@
 	
 	<div id="bios">
 		<li>
-			<img src="/images/bio_brian.png"><br />
+			<img src="<?php bloginfo('url'); ?>/images/bio_brian.png"><br />
 			Brian Andrich<br />
 			25 years old<br />
 			Los Angeles, CA<br />
 			<a href="http://brianandrich.com">Website</a>
 		</li>
 		<li>
-			<img src="/images/bio_lillian.png"><br />
+			<img src="<?php bloginfo('url'); ?>/images/bio_lillian.png"><br />
 			Lillian Meredith<br />
 			25 years old<br />
 			New York, NY<br />
 			<a href="http://lillianmeredith.com">Website</a>
 		</li>
 		<li>
-			<img src="/images/bio_truck.png"><br />
+			<img src="<?php bloginfo('url'); ?>/images/bio_truck.png"><br />
 			Ford Ranger<br />
 			10 years old<br />
 			Dearborn, MI<br />

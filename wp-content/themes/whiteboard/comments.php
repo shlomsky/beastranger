@@ -34,7 +34,7 @@
 		            	<textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4" style="font-family:calibri;height: 110px; font-size: 13px; padding: 2px 4px; width: 530px;"></textarea>
 		            </p>
 		            <p>
-		            	<input name="submit" type="submit" id="submit" tabindex="5" value="" style="background:url('/images/suggest.png');width:94px;height:25px;float:right;border:none;" />
+		            	<input name="submit" type="submit" id="submit" tabindex="5" value="" style="background:url('<?php bloginfo('url'); ?>/images/suggest.png');width:94px;height:25px;float:right;border:none;" />
 		            	<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 		            </p>
 		            <?php do_action('comment_form', $post->ID); ?>
