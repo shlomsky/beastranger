@@ -34,8 +34,8 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="http://localhost/beastranger/blueprint/screen.css" type="text/css" media="screen, projection">
-	<link rel="stylesheet" href="http://localhost/beastranger/blueprint/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="//blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="//blueprint/print.css" type="text/css" media="print">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<!--
 	Pulls the latest version of jQuery from Google's CDN
@@ -53,7 +53,7 @@
 			<div id="header-container">
 				<div id="logo">
 					<a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('description'); ?>">
-						<img src="http://localhost/beastranger/images/logo.png" border="0" />
+						<img src="//images/logo.png" border="0" />
 					</a>
 				</div><!--#logo-->
 			
@@ -93,51 +93,51 @@
 					
 					<?php 
 						if ( is_page('2')) {
-							echo "<li><a href='http://localhost/beastranger'><img src='images/atruckpilgrimage_active.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/the-daily-update'><img src='images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/poetry'><img src='images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='http://localhost/beastranger/category/photographs'><img src='images/photographs.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/suggestions'><img src='images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='images/atruckpilgrimage_active.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='images/suggestions.png' border='0' /></a></li>";
 						}
 						
 						elseif ( is_category('3')) {
-							echo "<li><a href='http://localhost/beastranger'><img src='http://localhost/beastranger/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/the-daily-update'><img src='http://localhost/beastranger/images/thedailyupdate_active.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/poetry'><img src='http://localhost/beastranger/images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='http://localhost/beastranger/category/photographs'><img src='http://localhost/beastranger/images/photographs.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/suggestions'><img src='http://localhost/beastranger/images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate_active.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='//images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='//images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='//images/suggestions.png' border='0' /></a></li>";
 						}
 						
 						elseif ( is_category('4')) {
-							echo "<li><a href='http://localhost/beastranger'><img src='http://localhost/beastranger/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/the-daily-update'><img src='http://localhost/beastranger/images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/poetry'><img src='http://localhost/beastranger/images/poetry_active.png' border='0' /></a></li>
-							 	  <li><a href='http://localhost/beastranger/category/photographs'><img src='http://localhost/beastranger/images/photographs.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/suggestions'><img src='http://localhost/beastranger/images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='//images/poetry_active.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='//images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='//images/suggestions.png' border='0' /></a></li>";
 						}
 						
 						elseif ( is_category('5')) {
-							echo "<li><a href='http://localhost/beastranger'><img src='http://localhost/beastranger/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/the-daily-update'><img src='http://localhost/beastranger/images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/poetry'><img src='http://localhost/beastranger/images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='http://localhost/beastranger/category/photographs'><img src='http://localhost/beastranger/images/photographs_active.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/suggestions'><img src='http://localhost/beastranger/images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='//images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='//images/photographs_active.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='//images/suggestions.png' border='0' /></a></li>";
 						}
 						
 						elseif ( is_page('5')) {
-							echo "<li><a href='http://localhost/beastranger'><img src='http://localhost/beastranger/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/the-daily-update'><img src='http://localhost/beastranger/images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/poetry'><img src='http://localhost/beastranger/images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='http://localhost/beastranger/category/photographs'><img src='http://localhost/beastranger/images/photographs.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/suggestions'><img src='http://localhost/beastranger/images/suggestions_active.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='//images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='//images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='//images/suggestions_active.png' border='0' /></a></li>";
 						}
 						
 						else {
-							echo "<li><a href='http://localhost/beastranger'><img src='http://localhost/beastranger/images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/the-daily-update'><img src='http://localhost/beastranger/images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/category/poetry'><img src='http://localhost/beastranger/images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='http://localhost/beastranger/category/photographs'><img src='http://localhost/beastranger/images/photographs.png' border='0' /></a></li>
-								  <li><a href='http://localhost/beastranger/suggestions'><img src='http://localhost/beastranger/images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='//images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='//images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='//images/suggestions.png' border='0' /></a></li>";
 						}
 						
 					?>
@@ -151,21 +151,21 @@
 	
 	<div id="bios">
 		<li>
-			<img src="http://localhost/beastranger/images/bio_brian.png"><br />
+			<img src="//images/bio_brian.png"><br />
 			Brian Andrich<br />
 			25 years old<br />
 			Los Angeles, CA<br />
 			<a href="http://brianandrich.com">Website</a>
 		</li>
 		<li>
-			<img src="http://localhost/beastranger/images/bio_lillian.png"><br />
+			<img src="//images/bio_lillian.png"><br />
 			Lillian Meredith<br />
 			25 years old<br />
 			New York, NY<br />
 			<a href="http://lillianmeredith.com">Website</a>
 		</li>
 		<li>
-			<img src="http://localhost/beastranger/images/bio_truck.png"><br />
+			<img src="//images/bio_truck.png"><br />
 			Ford Ranger<br />
 			10 years old<br />
 			Dearborn, MI<br />
