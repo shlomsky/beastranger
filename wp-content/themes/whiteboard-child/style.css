@@ -44,10 +44,10 @@ body {
 }
 	#header-container{width: 850px; margin: 0 auto;clear:both;}
 	#logo {margin:30px 0 0 0;float:left;}
-	#daytracker {float:left;border-left:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;border-right:1px solid #dcdcdc;padding:3px 13px;background:#f5f3ed;color:#acacac;font-size:16px;letter-spacing:0.5px;margin:0 0 0 30px;}
+	#daytracker {float:left;border-left:1px solid #cbcbcb;border-bottom:1px solid #cbcbcb;border-right:1px solid #cbcbcb;padding:3px 13px;background:#f5f3ed;color:#acacac;font-size:16px;letter-spacing:0.5px;margin:0 0 0 30px;}
 	#quote{float:right;font-size:12px;color:#909090;width:251px;margin:16px 0;line-height:15px;}
 	.source {color:#9f9f9f;font-size:11px;width:100%;float:right;text-align:right;}
-	#nav {float:left;clear:both;width:100%;border-top:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;padding:12px 0 7px;margin:0 0 45px;
+	#nav {float:left;clear:both;width:100%;border-top:1px solid #cbcbcb;border-bottom:1px solid #cbcbcb;padding:12px 0 7px;margin:0 0 45px;
 		
 	}
 	#menu {width: 850px; margin: 0 auto;}
@@ -62,7 +62,7 @@ body {
 	#bios li{float:left;font-family:calibri;font-size:12px;line-height:15px;color:#808080;list-style:none;margin:0 0 15px 12px;}
 	h1{color:#747474;font-size:24px;letter-spacing:0.5px;}
 	#two-blocks{margin:35px 0 0;}
-	#two-blocks #left{float:left;width:390px;border-right:1px solid #dcdcdc;padding:0 27px 0 0;}
+	#two-blocks #left{float:left;width:390px;border-right:1px solid #cbcbcb;padding:0 27px 0 0;}
 	#two-blocks #right{float:right;width:390px;}
 	#two-blocks p{color:#7d7d7d;font-size:13px;line-height:21px;margin-bottom:10px;}
 	#two-blocks li{list-style:square;list-style-postion:outside;color:#7d7d7d;font-size:13px;line-height:21px;}
@@ -142,7 +142,7 @@ body {
 .post {
 	
 }
-	#post-content, #page-content{border-bottom:1px solid #dcdcdc;padding:0 0 15px 0;margin:0 0 20px;}
+	#post-content, #page-content{border-bottom:1px solid #cbcbcb;padding:0 0 15px 0;margin:0 0 20px;}
 	#post-content p, #page-content p{font-size:14px;line-height:23px;color:#5f5f5f;
 		
 	}
@@ -223,7 +223,7 @@ a {color:#617c98;}
 h1.title a {color:#747474;font-size:24px;letter-spacing:0.5px;text-decoration:none;}
 h1.title a:hover {text-decoration:underline;}
 .newer-older{width:540px;clear:both;}
-.suggestion-container{border-top:1px solid #dcdcdc;padding:25px 0 0 0;margin:0 0 30px 0;}
+.suggestion-container{border-top:1px solid #cbcbcb;padding:25px 0 0 0;margin:0 0 30px 0;}
 .suggestor{color:#5f5f5f;font-size:13px;font-weight:bold;margin-bottom:5px;}
 .suggestion{color:#5f5f5f;font-size:13px;font-weight:normal}
 #commentsForm{margin-bottom:80px;}
