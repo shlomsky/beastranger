@@ -24,9 +24,7 @@
 				<strong>Nothing yet.</strong>
 				
 			</p>
-			<p>
-				We apologize for any inconvenience, please try somewhere else.
-			</p>
+		
 		</div><!--noResults-->
 	<?php endif; ?>
 		
