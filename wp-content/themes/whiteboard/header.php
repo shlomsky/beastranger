@@ -53,7 +53,7 @@
 			<div id="header-container">
 				<div id="logo">
 					<a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('description'); ?>">
-						<img src="/images/logo.png" border="0" />
+						<img src="<?php bloginfo('url'); ?>/images/logo.png" border="0" />
 					</a>
 				</div><!--#logo-->
 			
