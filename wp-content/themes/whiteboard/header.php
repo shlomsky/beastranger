@@ -53,7 +53,7 @@
 			<div id="header-container">
 				<div id="logo">
 					<a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('description'); ?>">
-						<img src="//images/logo.png" border="0" />
+						<img src="/images/logo.png" border="0" />
 					</a>
 				</div><!--#logo-->
 			
@@ -101,43 +101,43 @@
 						}
 						
 						elseif ( is_category('3')) {
-							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate_active.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='//images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='//images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='//images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate_active.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
 						}
 						
 						elseif ( is_category('4')) {
-							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='//images/poetry_active.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='//images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='//images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='/images/poetry_active.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
 						}
 						
 						elseif ( is_category('5')) {
-							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='//images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='//images/photographs_active.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='//images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='/images/photographs_active.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
 						}
 						
 						elseif ( is_page('5')) {
-							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='//images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='//images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='//images/suggestions_active.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='/images/suggestions_active.png' border='0' /></a></li>";
 						}
 						
 						else {
-							echo "<li><a href='/'><img src='//images/atruckpilgrimage.png' border='0' /></a></li>
-								  <li><a href='/category/the-daily-update'><img src='//images/thedailyupdate.png' border='0' /></a></li>
-								  <li><a href='/category/poetry'><img src='//images/poetry.png' border='0' /></a></li>
-							 	  <li><a href='/category/photographs'><img src='//images/photographs.png' border='0' /></a></li>
-								  <li><a href='/suggestions'><img src='//images/suggestions.png' border='0' /></a></li>";
+							echo "<li><a href='/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+								  <li><a href='/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
+								  <li><a href='/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
+							 	  <li><a href='/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
+								  <li><a href='/suggestions'><img src='/images/suggestions.png' border='0' /></a></li>";
 						}
 						
 					?>
