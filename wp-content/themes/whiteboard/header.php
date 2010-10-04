@@ -93,7 +93,7 @@
 					
 					<?php 
 						if ( is_page('2')) {  ?>
-							echo "<li><a href='<?php bloginfo('url'); ?>'><img src='images/atruckpilgrimage_active.png' border='0' /></a></li>
+							<li><a href='<?php bloginfo('url'); ?>'><img src='images/atruckpilgrimage_active.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='images/thedailyupdate.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='images/poetry.png' border='0' /></a></li>
 							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='images/photographs.png' border='0' /></a></li>
@@ -101,7 +101,7 @@
 					<?php	}
 						
 						elseif ( is_category('3')) { ?>
-							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+							<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate_active.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
 							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
@@ -109,7 +109,7 @@
 					<?php	}
 						
 						elseif ( is_category('4')) { ?>
-							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+							<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry_active.png' border='0' /></a></li>
 							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
@@ -117,7 +117,7 @@
 					<?php	}
 						
 						elseif ( is_category('5')) { ?>
-							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+							<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
 							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs_active.png' border='0' /></a></li>
@@ -125,15 +125,15 @@
 					<?php	}
 						
 						elseif ( is_page('5')) { ?>
-							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+							<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
 							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/suggestions'><img src='/images/suggestions_active.png' border='0' /></a></li>";
-					<?php	}
+					<?php	} 
 						
 						else { ?>
-							echo "<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
+							<li><a href='<?php bloginfo('url'); ?>/'><img src='/images/atruckpilgrimage.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/the-daily-update'><img src='/images/thedailyupdate.png' border='0' /></a></li>
 								  <li><a href='<?php bloginfo('url'); ?>/category/poetry'><img src='/images/poetry.png' border='0' /></a></li>
 							 	  <li><a href='<?php bloginfo('url'); ?>/category/photographs'><img src='/images/photographs.png' border='0' /></a></li>
