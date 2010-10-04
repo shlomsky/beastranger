@@ -21,9 +21,8 @@
 	<?php endwhile; else: ?>
 		<div class="no-results">
 			<p>
-				<strong>There has been a glitch in the Matrix.</strong>
-				<br />
-				There is nothing to see here.
+				<strong>Nothing yet.</strong>
+				
 			</p>
 			<p>
 				We apologize for any inconvenience, please try somewhere else.
