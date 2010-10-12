@@ -76,7 +76,7 @@
 					document.write("Day "+difference+" ")
 					}
 					//enter the count up date using the format year/month/day
-					countup(2010,10,09)
+					countup(2010,10,08)
 					</script>
 				</div><!--#daytracker-->
 			
