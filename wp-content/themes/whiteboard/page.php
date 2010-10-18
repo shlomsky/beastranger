@@ -7,7 +7,7 @@
 
 	<div id="map">
 	
-		<iframe width="848" height="398" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=104024361749664089066.000491c24f8b67becd2bc&amp;ll=43.2932,-116.455078&amp;spn=6.364797,18.61084&amp;z=6&amp;output=embed"></iframe>
+		<iframe width="848" height="398" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=104024361749664089066.000491c24f8b67becd2bc&amp;ll=43.866218,-109.951172&amp;spn=12.607654,37.265625&amp;z=5&amp;output=embed"></iframe>
 		</div>
 		
 	<div id="two-blocks">
