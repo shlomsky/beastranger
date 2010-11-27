@@ -7,7 +7,7 @@
 
 	<div id="map">
 	
-	<iframe width="848" height="398" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=http:%2F%2Fmaps.google.com%2Fmaps%2Fms%3Fie%3DUTF8%26hl%3Den%26oe%3DUTF8%26start%3D0%26num%3D200%26msa%3D0%26msid%3D104024361749664089066.000491c24f8b67becd2bc%26z%3D4%26output%3Dkml&amp;sll=47.608005,-134.07601&amp;sspn=31.327672,79.013672&amp;ie=UTF8&amp;ll=36.491973,-108.544922&amp;spn=14.045006,37.22168&amp;z=5&amp;output=embed"></iframe>
+	<iframe width="848" height="398" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=http:%2F%2Fmaps.google.com%2Fmaps%2Fms%3Fdoflg%3Dptm%26ie%3DUTF8%26msa%3D0%26msid%3D104024361749664089066.000491c24f8b67becd2bc%26ll%3D30.137585,-97.922465%26spn%3D0.313541,0.617294%26z%3D11%26output%3Dkml&amp;sll=30.137585,-97.922465&amp;sspn=0.313541,0.617294&amp;ie=UTF8&amp;ll=35.029996,-108.544922&amp;spn=14.302839,37.22168&amp;z=5&amp;output=embed"></iframe>
 		
 		
 		</div>
