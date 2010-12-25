@@ -163,7 +163,7 @@
 		<li>
 			<img src="<?php bloginfo('url'); ?>/images/bio_brian.png"><br />
 			Brian Andrich<br />
-			25 years old<br />
+			26 years old<br />
 			Los Angeles, CA<br />
 			<a href="http://brianandrich.com">Website</a>
 		</li>
