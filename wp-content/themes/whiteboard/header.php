@@ -58,7 +58,7 @@
 				</div><!--#logo-->
 			
 				<div id="daytracker">
-					<script>
+					<!-- <script>
 
 					var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
 
@@ -77,8 +77,8 @@
 					}
 					//enter the count up date using the format year/month/day
 					countup(2010,10,08)
-					</script>
-				</div><!--#daytracker-->
+					</script> --> 114 Days
+				</div>   
 			
 				<div id="quote" class="calibri">
 					<em>&quot;I hope that my brief time as a stranger 
