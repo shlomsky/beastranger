@@ -11,7 +11,7 @@ function initialize() {
      if (GBrowserIsCompatible()) {
 	        geoXml = new GGeoXml("http://beastranger.net/beastranger.kml");
 	        map = new GMap2(document.getElementById("map_canvas")); 
-	        map.setCenter(new GLatLng(41.875696,-87.624207), 11); 
+	        map.setCenter(new GLatLng(48.458352,-94.921875), 3); 
 	        map.setUIToDefault();
 	        map.addOverlay(geoXml);
 	      }
