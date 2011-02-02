@@ -9,7 +9,7 @@
    <script type="text/javascript">
 function initialize() {
      if (GBrowserIsCompatible()) {
-	        geoXml = new GGeoXml("http://maps.google.com/maps/ms?doflg=ptm&ie=UTF8&hl=en&oe=UTF8&start=0&num=200&msa=0&msid=207264463711218357759.000491c24f8b67becd2bc&ll=42.747012,-97.910156&spn=32.241903,79.013672&z=4&output=kml");
+	        geoXml = new GGeoXml("http://beastranger.net/images/beastranger.kml");
 	        map = new GMap2(document.getElementById("map_canvas")); 
 	        map.setCenter(new GLatLng(41.875696,-87.624207), 11); 
 	        map.setUIToDefault();
