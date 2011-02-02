@@ -15,4 +15,8 @@ SecFilterEngine Off
 SecFilterScanPOST Off
 </IfModule>
 
+AddType application/vnd.google-earth.kml+xml .kml
+AddType application/vnd.google-earth.kmz .kmz 
+
+
 # END WordPress
