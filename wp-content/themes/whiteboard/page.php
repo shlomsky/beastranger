@@ -9,13 +9,13 @@
    <script type="text/javascript">
 function initialize() {
      if (GBrowserIsCompatible()) {
-       var map = new GMap2(document.getElementById("map_canvas"));
-       map.setCenter(new GLatLng(37.4419, -122.1419), 13);
-       map.setUIToDefault();
-	   var kml = new GGeoXml("http://beastranger.net/images/beastranger.kml");
-	   map.addOverlay(kml);
-
-     }
+	        geoXml = new GGeoXml("http://beastranger.net/images/beastranger.kml");
+	        map = new GMap2(document.getElementById("map_canvas")); 
+	        map.setCenter(new GLatLng(41.875696,-87.624207), 11); 
+	        map.setUIToDefault();
+	        map.addOverlay(geoXml);
+	      }
+	
    }
 
    </script>
