@@ -4,45 +4,40 @@
 	if ( is_page('2')) {
 	
 ?>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAs-AeXRfe7G8WFxVYEphTQBR07ZlHIqEkBLQ2rOeuA1mTf4BeUxT0MWtX3xnCUsLPudAApJ8FqnqgCA" type="text/javascript"></script>
+<script type="text/javascript">
+    //<![CDATA[
 
-	<div id="map">
-		
-		
-		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAs-AeXRfe7G8WFxVYEphTQBR07ZlHIqEkBLQ2rOeuA1mTf4BeUxT0MWtX3xnCUsLPudAApJ8FqnqgCA" type="text/javascript"></script>
-	
-	
-		
-	 <script type="text/javascript"> 
+    if (GBrowserIsCompatible()) { 
 
-	    var map;
-	    var geoXml; 
-	    var toggleState = 1;
 
-	    function initialize() {
-	      if (GBrowserIsCompatible()) {
-	        geoXml = new GGeoXml("<?php bloginfo('url'); ?>/images/beastranger.kml");
-	        map = new GMap2(document.getElementById("map_canvas")); 
-	        map.setCenter(new GLatLng(41.875696,-87.624207), 11); 
-	        map.setUIToDefault();
-	        map.addOverlay(geoXml);
-	      }
-	    } 
 
-	    function toggleMyKml() {
-	      if (toggleState == 1) {
-	        map.removeOverlay(geoXml);
-	        toggleState = 0;
-	      } else {
-	        map.addOverlay(geoXml);
-	        toggleState = 1;
-	      }
-	    }
-		</script>
-		<div id="map_canvas" style="width: 848px; height: 398px;border: 1px solid #666666;"></div>
-	
+      var map = new GMap2(document.getElementById("map"));
+      map.addControl(new GLargeMapControl());
+      map.addControl(new GMapTypeControl());
+      map.setCenter(new GLatLng(41.875696,-87.624207), 3);
 
-		
-		</div>
+      // ==== Create a KML Overlay ====
+
+      var kml = new GGeoXml("http://beastranger.net/images/beastranger.kml");
+      map.addOverlay(kml);
+
+
+    }
+
+    // display a warning if the browser was not compatible
+    else {
+      alert("Sorry, the Google Maps API is not compatible with this browser");
+    }
+
+    // This Javascript is based on code provided by the
+    // Community Church Javascript Team
+    // http://www.bisphamchurch.org.uk/   
+    // http://econym.org.uk/gmap/
+
+    //]]>
+    </script>
+	<div id="map" style="width: 848px; height: 398px;border: 1px solid #666666;"></div>
 		
 	<div id="two-blocks">
 		<div id="left">

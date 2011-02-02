@@ -26,6 +26,7 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'rss2_url' ); ?>" />
 	<link rel="alternate" type="application/atom+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'atom_url' ); ?>" />
 	<link rel="canonical" href="<?php echo curPageURL(); ?>" />
+	
 	<!--
 		optional HTML 5 Shim
 		Fixes the new HTML 5 elements (article, header, etc.) for IE8 and below
@@ -42,10 +43,12 @@
 	http://code.google.com/apis/libraries/
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	-->
+	
 	<?php wp_head(); ?>
-</head>
+</head>	
 
-<body <?php body_class(); ?>>
+
+<body onunload="GUnload()" <?php body_class(); ?>>
 
 <div id="main"><!-- this encompasses the entire Web site -->
 	<div id="header">
