@@ -47,7 +47,8 @@
 </head>	
 
 
-<body onunload="GUnload()" <?php body_class(); ?>>
+<body onload="initialize()" onunload="GUnload()">
+
 
 <div id="main"><!-- this encompasses the entire Web site -->
 	<div id="header">
