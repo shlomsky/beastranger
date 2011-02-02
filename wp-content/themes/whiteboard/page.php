@@ -10,7 +10,7 @@
 function initialize() {
      if (GBrowserIsCompatible()) {
 	        var geoXml = new GGeoXml("http://beastranger.net/b.kml");
-			var geoXml2 = new GGeoXml("http://beastranger.net/a.kml");
+			var geoXml2 = new GGeoXml("http://gmaps-samples.googlecode.com/svn/trunk/ggeoxml/cta.kml");
 	        var map = new GMap2(document.getElementById("map_canvas")); 
 	        map.setCenter(new GLatLng(48.458352,-94.921875), 3); 
 	        map.setUIToDefault();
