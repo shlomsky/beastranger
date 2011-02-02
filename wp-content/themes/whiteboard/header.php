@@ -26,7 +26,7 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'rss2_url' ); ?>" />
 	<link rel="alternate" type="application/atom+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'atom_url' ); ?>" />
 	<link rel="canonical" href="<?php echo curPageURL(); ?>" />
-	
+	<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAs-AeXRfe7G8WFxVYEphTQBR07ZlHIqEkBLQ2rOeuA1mTf4BeUxT0MWtX3xnCUsLPudAApJ8FqnqgCA" type="text/javascript"></script>
 	<!--
 		optional HTML 5 Shim
 		Fixes the new HTML 5 elements (article, header, etc.) for IE8 and below

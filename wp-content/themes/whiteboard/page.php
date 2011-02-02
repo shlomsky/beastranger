@@ -4,7 +4,7 @@
 	if ( is_page('2')) {
 	
 ?>
-<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAs-AeXRfe7G8WFxVYEphTQBR07ZlHIqEkBLQ2rOeuA1mTf4BeUxT0MWtX3xnCUsLPudAApJ8FqnqgCA" type="text/javascript"></script>
+
 <script type="text/javascript">
     //<![CDATA[
 
