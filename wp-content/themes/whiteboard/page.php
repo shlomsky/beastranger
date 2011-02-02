@@ -12,6 +12,9 @@ function initialize() {
        var map = new GMap2(document.getElementById("map_canvas"));
        map.setCenter(new GLatLng(37.4419, -122.1419), 13);
        map.setUIToDefault();
+	   var kml = new GGeoXml("http://beastranger.net/images/beastranger.kml");
+	   map.addOverlay(kml);
+
      }
    }
 
@@ -19,7 +22,7 @@ function initialize() {
 
 
 
-	<div id="map_canvas" style="width: 848px; height: 398px;border: 1px solid #666666;"></div>
+	<div id="map_canvas" style="width: 848px; height: 398px;border: 1px solid #909090;"></div>
 		
 	<div id="two-blocks">
 		<div id="left">
