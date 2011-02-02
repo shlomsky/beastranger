@@ -10,10 +10,12 @@
 function initialize() {
      if (GBrowserIsCompatible()) {
 	        geoXml = new GGeoXml("http://beastranger.net/b.kml");
+			geoXml2 = new GGeoXml("http://beastranger.net/a.kml");
 	        map = new GMap2(document.getElementById("map_canvas")); 
 	        map.setCenter(new GLatLng(48.458352,-94.921875), 3); 
 	        map.setUIToDefault();
 	        map.addOverlay(geoXml);
+			map.addOverlay(geoXml2);
 	      }
 	
    }
