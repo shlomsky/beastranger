@@ -6,19 +6,27 @@
 ?>
 
 <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAs-AeXRfe7G8WFxVYEphTQBR07ZlHIqEkBLQ2rOeuA1mTf4BeUxT0MWtX3xnCUsLPudAApJ8FqnqgCA" type="text/javascript"></script>
-   <script type="text/javascript">
-function initialize() {
-     if (GBrowserIsCompatible()) {
-	        geoXml = new GGeoXml("http://beastranger.net/b.kml");
-	        map = new GMap2(document.getElementById("map_canvas")); 
-	        map.setCenter(new GLatLng(48.458352,-94.921875), 3); 
-	        map.setUIToDefault();
-	        map.addOverlay(geoXml);
-	      }
-	
-   }
 
-   </script>
+
+<script type="text/javascript">
+
+    //<![CDATA[
+
+    function load()
+    {
+      if (GBrowserIsCompatible())
+      {
+        var map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(new GLatLng(48.458352,-94.921875), 3);
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+        map.addOverlay(new GGeoXml("http://beastranger.net/beastranger.kml"));
+      }
+    }
+
+    //]]>
+    </script>
+
 
 
 
