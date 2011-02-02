@@ -14,8 +14,8 @@ function initialize() {
 	        var map = new GMap2(document.getElementById("map_canvas")); 
 	        map.setCenter(new GLatLng(48.458352,-94.921875), 3); 
 	        map.setUIToDefault();
-	        map.addOverlay(geoXml);
-			map.addOverlay(geoXml2);
+	        map.addOverlay(geoXml2);
+			map.addOverlay(geoXml);
 	      }
 	
    }
