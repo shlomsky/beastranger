@@ -1,114 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
+<cross-domain-policy>
+<allow-access-from domain="*" />
+</cross-domain-policy>
 <Document>
   <name>Beastranger Map</name>
   <description><![CDATA[]]></description>
-  <Style id="style57">
+  <Style id="style41">
     <IconStyle>
       <Icon>
         <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
       </Icon>
     </IconStyle>
-  </Style>
-  <Style id="style83">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style38">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style33">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style5">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style79">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style72">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style92">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style60">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style88">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style15">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style96">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style7">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style48">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style98">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style84">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style45">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
   </Style>
   <Style id="style62">
     <LineStyle>
@@ -116,31 +19,17 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style50">
+  <Style id="style25">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style69">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style8">
+  <Style id="style4">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
-  </Style>
-  <Style id="style46">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
   </Style>
   <Style id="style51">
     <LineStyle>
@@ -148,59 +37,37 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style27">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style47">
+  <Style id="style67">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style94">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style71">
+  <Style id="style43">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style95">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style80">
+  <Style id="style11">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style97">
+  <Style id="style68">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style36">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
+  <Style id="style6">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
   </Style>
-  <Style id="style12">
+  <Style id="style34">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
@@ -212,56 +79,101 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style35">
+  <Style id="style32">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style11">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style55">
+  <Style id="style45">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style78">
+  <Style id="style36">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style4">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style6">
+  <Style id="style7">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style86">
+  <Style id="style37">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style34">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
+  <Style id="style33">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style50">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style59">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style69">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style10">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style49">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style26">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style39">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style58">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style5">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style63">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
   </Style>
   <Style id="style2">
     <LineStyle>
@@ -269,14 +181,145 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style14">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
+  <Style id="style27">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
   </Style>
-  <Style id="style39">
+  <Style id="style52">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style28">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style64">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style74">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style15">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style19">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style48">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style21">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style13">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style46">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style29">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style71">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style20">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style42">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style35">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style3">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style54">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style14">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style60">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style53">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style12">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style65">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style17">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
@@ -294,39 +337,25 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style87">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style89">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
   <Style id="style16">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style102">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style20">
+  <Style id="style18">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style24">
+  <Style id="style72">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style47">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
@@ -338,119 +367,44 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style28">
+  <Style id="style55">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style37">
+  <Style id="style9">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style24">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style30">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style1">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style23">
     <IconStyle>
       <Icon>
         <href></href>
       </Icon>
     </IconStyle>
   </Style>
-  <Style id="style29">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style18">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style64">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style41">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style99">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style26">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style58">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style49">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style3">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style75">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style19">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style81">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style25">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style74">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style17">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style59">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style90">
+  <Style id="style61">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
@@ -462,129 +416,25 @@
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style101">
+  <Style id="style57">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style56">
+  <Style id="style8">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style21">
+  <Style id="style44">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
     </LineStyle>
   </Style>
-  <Style id="style67">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style23">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style63">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style100">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style53">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style93">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style65">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style91">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style76">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style10">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style68">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style85">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style32">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style13">
-    <IconStyle>
-      <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style42">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style43">
-    <IconStyle>
-      <Icon>
-        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style1">
+  <Style id="style38">
     <LineStyle>
       <color>73FF0000</color>
       <width>5</width>
@@ -597,60 +447,17 @@
       </Icon>
     </IconStyle>
   </Style>
-  <Style id="style82">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style30">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style77">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style9">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style61">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style52">
+  <Style id="style56">
     <IconStyle>
       <Icon>
-        <href></href>
-      </Icon>
-    </IconStyle>
-  </Style>
-  <Style id="style54">
-    <LineStyle>
-      <color>73FF0000</color>
-      <width>5</width>
-    </LineStyle>
-  </Style>
-  <Style id="style44">
-    <IconStyle>
-      <Icon>
-        <href></href>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
       </Icon>
     </IconStyle>
   </Style>
   <Placemark>
     <name>264 4th Ave</name>
     <description><![CDATA[Los Angeles, CA 90291<br><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=33.997954,-118.475485&amp;thumb=0">]]></description>
-    <styleUrl>#style57</styleUrl>
+    <styleUrl>#style41</styleUrl>
     <Point>
       <coordinates>-118.475487,33.997955,0.000000</coordinates>
     </Point>
@@ -658,7 +465,7 @@
   <Placemark>
     <name>Directions to camp wawona yosemite</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style83</styleUrl>
+    <styleUrl>#style62</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -2665,17 +2472,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Yosemite National Park, California 95389 (Tamarack Flat Campground)</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style38</styleUrl>
-    <Point>
-      <coordinates>-119.736565,37.752148,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to san francisco, ca</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style33</styleUrl>
+    <styleUrl>#style25</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -4654,7 +4453,7 @@
   <Placemark>
     <name>Directions to Yosemite National Park, California 95389 (Tamarack Flat Campground)</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style5</styleUrl>
+    <styleUrl>#style4</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -5688,17 +5487,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: san francisco, ca</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style79</styleUrl>
-    <Point>
-      <coordinates>-122.419449,37.774952,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to berkeley, ca</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style72</styleUrl>
+    <styleUrl>#style51</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -5809,7 +5600,7 @@
   <Placemark>
     <name>Directions to palo alto, ca</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style92</styleUrl>
+    <styleUrl>#style67</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -6091,7 +5882,7 @@
   <Placemark>
     <name>Directions to arcata, ca</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style60</styleUrl>
+    <styleUrl>#style43</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -8003,17 +7794,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: arcata, ca</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style88</styleUrl>
-    <Point>
-      <coordinates>-124.082855,40.866474,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Ukiah, CA</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style15</styleUrl>
+    <styleUrl>#style11</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -8987,7 +8770,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Lost Creek Lake, OR</name>
-    <styleUrl>#style96</styleUrl>
+    <styleUrl>#style68</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -12937,7 +12720,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Dallesport, WA</name>
-    <styleUrl>#style7</styleUrl>
+    <styleUrl>#style6</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -15129,7 +14912,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Portland, OR</name>
-    <styleUrl>#style48</styleUrl>
+    <styleUrl>#style34</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -16095,7 +15878,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Seattle, WA</name>
-    <styleUrl>#style98</styleUrl>
+    <styleUrl>#style70</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -17001,16 +16784,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Seattle, WA</name>
-    <styleUrl>#style84</styleUrl>
-    <Point>
-      <coordinates>-122.332222,47.606373,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to whistler bc</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style45</styleUrl>
+    <styleUrl>#style32</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -19531,7 +19307,7 @@
   <Placemark>
     <name>Directions to New Hazelton, BC, Canada</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style62</styleUrl>
+    <styleUrl>#style45</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -25656,7 +25432,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Whitehorse, Yukon Territory, Canada</name>
-    <styleUrl>#style50</styleUrl>
+    <styleUrl>#style36</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -31895,15 +31671,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Whitehorse, Yukon Territory, Canada</name>
-    <styleUrl>#style69</styleUrl>
-    <Point>
-      <coordinates>-135.049942,60.716679,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Anchorage, AK</name>
-    <styleUrl>#style8</styleUrl>
+    <styleUrl>#style7</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -37095,16 +36864,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Anchorage, AK</name>
-    <styleUrl>#style46</styleUrl>
-    <Point>
-      <coordinates>-149.899658,61.218056,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Whittier, AK</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style51</styleUrl>
+    <styleUrl>#style37</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -37610,17 +37372,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Whittier, AK</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style27</styleUrl>
-    <Point>
-      <coordinates>-148.683868,60.773117,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Houston, AK</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style47</styleUrl>
+    <styleUrl>#style33</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -38596,17 +38350,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: McKinley Park, AK</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style94</styleUrl>
-    <Point>
-      <coordinates>-148.914398,63.732758,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to McKinley Park, AK</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style71</styleUrl>
+    <styleUrl>#style50</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -39772,17 +39518,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Stampede Rd, Healy, AK 99743</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style95</styleUrl>
-    <Point>
-      <coordinates>-149.266724,63.883732,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Stampede Rd, Healy, AK 99743</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style80</styleUrl>
+    <styleUrl>#style59</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -40096,7 +39834,7 @@
   <Placemark>
     <name>Directions to Fairbanks, AK</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style97</styleUrl>
+    <styleUrl>#style69</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -41320,16 +41058,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Fairbanks, AK</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style36</styleUrl>
-    <Point>
-      <coordinates>-147.716476,64.838043,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Jasper National Park, YELLOWHEAD HWY &amp; ICEFIELDS PKY, Alberta, Canada</name>
-    <styleUrl>#style12</styleUrl>
+    <styleUrl>#style10</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -49986,7 +49716,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Banff, Alberta, Canada</name>
-    <styleUrl>#style70</styleUrl>
+    <styleUrl>#style49</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -51572,7 +51302,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Calgary, Alberta, Canada</name>
-    <styleUrl>#style35</styleUrl>
+    <styleUrl>#style26</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -51994,16 +51724,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Calgary, Alberta, Canada</name>
-    <styleUrl>#style11</styleUrl>
-    <Point>
-      <coordinates>-114.057259,51.044426,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to choteau, montana</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style55</styleUrl>
+    <styleUrl>#style39</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -53252,7 +52975,7 @@
   <Placemark>
     <name>Directions to Missoula, MT</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style78</styleUrl>
+    <styleUrl>#style58</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -54325,16 +54048,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Missoula, MT</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style4</styleUrl>
-    <Point>
-      <coordinates>-113.994034,46.872131,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Billings, MT</name>
-    <styleUrl>#style6</styleUrl>
+    <styleUrl>#style5</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -56276,7 +55991,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Cheyenne, WY</name>
-    <styleUrl>#style86</styleUrl>
+    <styleUrl>#style63</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -58564,13 +58279,6 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Cheyenne, WY</name>
-    <styleUrl>#style34</styleUrl>
-    <Point>
-      <coordinates>-104.820107,41.139755,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Boulder, CO</name>
     <styleUrl>#style2</styleUrl>
     <ExtendedData>
@@ -58911,15 +58619,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Boulder, CO</name>
-    <styleUrl>#style14</styleUrl>
-    <Point>
-      <coordinates>-105.270218,40.014984,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to denver, co</name>
-    <styleUrl>#style39</styleUrl>
+    <styleUrl>#style27</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -59102,7 +58803,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to pueblo, co</name>
-    <styleUrl>#style73</styleUrl>
+    <styleUrl>#style52</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -59608,7 +59309,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Taos, NM</name>
-    <styleUrl>#style40</styleUrl>
+    <styleUrl>#style28</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -60462,15 +60163,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Taos, NM</name>
-    <styleUrl>#style87</styleUrl>
-    <Point>
-      <coordinates>-105.572960,36.407188,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Santa Fe, NM</name>
-    <styleUrl>#style89</styleUrl>
+    <styleUrl>#style64</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -60958,15 +60652,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Santa Fe, NM</name>
-    <styleUrl>#style16</styleUrl>
-    <Point>
-      <coordinates>-105.937836,35.686890,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to socorro, nm</name>
-    <styleUrl>#style102</styleUrl>
+    <styleUrl>#style74</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -61376,7 +61063,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to carrizozo, nm</name>
-    <styleUrl>#style20</styleUrl>
+    <styleUrl>#style15</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -61640,7 +61327,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to lubbock, tx</name>
-    <styleUrl>#style24</styleUrl>
+    <styleUrl>#style19</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -62468,7 +62155,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to waco, tx</name>
-    <styleUrl>#style66</styleUrl>
+    <styleUrl>#style48</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -63645,7 +63332,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to austin, tx</name>
-    <styleUrl>#style28</styleUrl>
+    <styleUrl>#style21</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -64037,22 +63724,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: austin, tx</name>
-    <styleUrl>#style37</styleUrl>
-    <Point>
-      <coordinates>-97.743080,30.267096,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>From: 1000 Green Acres Dr, Wimberley, TX 78676</name>
-    <styleUrl>#style29</styleUrl>
-    <Point>
-      <coordinates>-98.111778,29.990166,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to south congress and riverside austin tx</name>
-    <styleUrl>#style18</styleUrl>
+    <styleUrl>#style13</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -64404,7 +64077,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to San Marcos, TX</name>
-    <styleUrl>#style64</styleUrl>
+    <styleUrl>#style46</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -64539,7 +64212,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to san antonio tx</name>
-    <styleUrl>#style41</styleUrl>
+    <styleUrl>#style29</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -64779,7 +64452,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Victoria, TX</name>
-    <styleUrl>#style99</styleUrl>
+    <styleUrl>#style71</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -65234,7 +64907,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Port Lavaca, TX</name>
-    <styleUrl>#style26</styleUrl>
+    <styleUrl>#style20</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -65351,7 +65024,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Palacios, TX</name>
-    <styleUrl>#style58</styleUrl>
+    <styleUrl>#style42</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -65475,7 +65148,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to bay city, tx</name>
-    <styleUrl>#style49</styleUrl>
+    <styleUrl>#style35</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -65769,7 +65442,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Freeport, TX</name>
-    <styleUrl>#style75</styleUrl>
+    <styleUrl>#style54</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -65853,7 +65526,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Galveston, TX</name>
-    <styleUrl>#style19</styleUrl>
+    <styleUrl>#style14</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -66074,7 +65747,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Houston, TX</name>
-    <styleUrl>#style81</styleUrl>
+    <styleUrl>#style60</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -66334,15 +66007,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>From: houston, tx</name>
-    <styleUrl>#style25</styleUrl>
-    <Point>
-      <coordinates>-95.382919,29.762285,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Lafayette, LA</name>
-    <styleUrl>#style74</styleUrl>
+    <styleUrl>#style53</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -67331,7 +66997,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to New Orleans, LA</name>
-    <styleUrl>#style17</styleUrl>
+    <styleUrl>#style12</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -68215,15 +67881,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: New Orleans, LA</name>
-    <styleUrl>#style59</styleUrl>
-    <Point>
-      <coordinates>-90.070618,29.964651,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Hotel Provincial, Chartres Street, New Orleans, LA</name>
-    <styleUrl>#style90</styleUrl>
+    <styleUrl>#style65</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -68246,7 +67905,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Mobile, AL</name>
-    <styleUrl>#style22</styleUrl>
+    <styleUrl>#style17</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -68877,7 +68536,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Pensacola, FL</name>
-    <styleUrl>#style101</styleUrl>
+    <styleUrl>#style73</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -69113,7 +68772,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Tallahassee, FL</name>
-    <styleUrl>#style56</styleUrl>
+    <styleUrl>#style40</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -69734,7 +69393,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Atlantic Beach, FL</name>
-    <styleUrl>#style21</styleUrl>
+    <styleUrl>#style16</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -70219,15 +69878,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Atlantic Beach, FL</name>
-    <styleUrl>#style67</styleUrl>
-    <Point>
-      <coordinates>-81.398674,30.334288,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Savannah, GA</name>
-    <styleUrl>#style23</styleUrl>
+    <styleUrl>#style18</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -70835,15 +70487,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Savannah, GA</name>
-    <styleUrl>#style63</styleUrl>
-    <Point>
-      <coordinates>-81.099937,32.083256,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Charleston, SC</name>
-    <styleUrl>#style100</styleUrl>
+    <styleUrl>#style72</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -71326,24 +70971,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Charleston, SC</name>
-    <styleUrl>#style53</styleUrl>
-    <Point>
-      <coordinates>-79.930908,32.776489,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>To: Birmingham, AL</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style93</styleUrl>
-    <Point>
-      <coordinates>-86.802567,33.520626,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Atlanta, GA</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style65</styleUrl>
+    <styleUrl>#style47</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -72452,7 +72082,7 @@
   <Placemark>
     <name>Directions to Memphis, TN</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style91</styleUrl>
+    <styleUrl>#style66</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -73552,7 +73182,7 @@
   <Placemark>
     <name>Directions to Chattanooga, TN</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style76</styleUrl>
+    <styleUrl>#style55</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -75454,7 +75084,7 @@
   <Placemark>
     <name>Directions to Birmingham, AL</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style10</styleUrl>
+    <styleUrl>#style9</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -76158,24 +75788,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Chattanooga, TN</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style68</styleUrl>
-    <Point>
-      <coordinates>-85.309685,35.045715,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>To: Memphis, TN</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style85</styleUrl>
-    <Point>
-      <coordinates>-90.048935,35.149643,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Tuscaloosa, AL</name>
-    <styleUrl>#style32</styleUrl>
+    <styleUrl>#style24</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -76527,16 +76141,9 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Tuscaloosa, AL</name>
-    <styleUrl>#style13</styleUrl>
-    <Point>
-      <coordinates>-87.569107,33.209679,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to Knoxville, TN</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style42</styleUrl>
+    <styleUrl>#style30</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -77021,14 +76628,6 @@
         -83.920776,35.960621,0.000000
       </coordinates>
     </LineString>
-  </Placemark>
-  <Placemark>
-    <name>To: Knoxville, TN</name>
-    <description><![CDATA[]]></description>
-    <styleUrl>#style43</styleUrl>
-    <Point>
-      <coordinates>-83.920784,35.960621,0.000000</coordinates>
-    </Point>
   </Placemark>
   <Placemark>
     <name>Directions to Nashville, TN</name>
@@ -77924,14 +77523,14 @@
   </Placemark>
   <Placemark>
     <name>To: Nashville, TN</name>
-    <styleUrl>#style31</styleUrl>
+    <styleUrl>#style23</styleUrl>
     <Point>
       <coordinates>-86.784912,36.165699,0.000000</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>Directions to Louisville, KY</name>
-    <styleUrl>#style82</styleUrl>
+    <styleUrl>#style61</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -78750,7 +78349,7 @@
   <Placemark>
     <name>Directions to Tok, AK</name>
     <description><![CDATA[]]></description>
-    <styleUrl>#style30</styleUrl>
+    <styleUrl>#style22</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -79859,7 +79458,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Fort Wayne, IN</name>
-    <styleUrl>#style77</styleUrl>
+    <styleUrl>#style57</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -80715,7 +80314,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Toledo, OH</name>
-    <styleUrl>#style9</styleUrl>
+    <styleUrl>#style8</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -81407,7 +81006,7 @@
   </Placemark>
   <Placemark>
     <name>Directions to Skidmore College, Saratoga Springs, NY</name>
-    <styleUrl>#style61</styleUrl>
+    <styleUrl>#style44</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -83910,15 +83509,8 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <name>To: Skidmore College, Saratoga Springs, NY</name>
-    <styleUrl>#style52</styleUrl>
-    <Point>
-      <coordinates>-73.784683,43.096943,0.000000</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>Directions to 215 W 90th St, New York, 10024</name>
-    <styleUrl>#style54</styleUrl>
+    <styleUrl>#style38</styleUrl>
     <ExtendedData>
       <Data name="_SnapToRoads">
         <value>true</value>
@@ -85169,9 +84761,17 @@
   </Placemark>
   <Placemark>
     <name>To: 215 W 90th St, New York, 10024</name>
-    <styleUrl>#style44</styleUrl>
+    <styleUrl>#style31</styleUrl>
     <Point>
       <coordinates>-73.974113,40.790657,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tamarack Flat Campground</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>-119.736565,37.752148,0.000000</coordinates>
     </Point>
   </Placemark>
 </Document>
