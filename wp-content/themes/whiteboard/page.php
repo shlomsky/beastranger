@@ -6,8 +6,41 @@
 ?>
 
 	<div id="map">
+		
+		
+		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAs-AeXRfe7G8WFxVYEphTQBR07ZlHIqEkBLQ2rOeuA1mTf4BeUxT0MWtX3xnCUsLPudAApJ8FqnqgCA" type="text/javascript"></script>
 	
-<iframe width="848" height="398" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=http:%2F%2Fmaps.google.com%2Fmaps%2Fms%3Fdoflg%3Dptm%26ie%3DUTF8%26hl%3Den%26oe%3DUTF8%26start%3D0%26num%3D200%26msa%3D0%26msid%3D207264463711218357759.000491c24f8b67becd2bc%26z%3D4%26output%3Dkml&amp;aq=&amp;sll=47.81396,-134.07601&amp;sspn=31.226383,79.013672&amp;ie=UTF8&amp;ll=34.560859,-90.527344&amp;spn=14.383601,37.22168&amp;z=5&amp;output=embed"></iframe>
+	
+		
+	 <script type="text/javascript"> 
+
+	    var map;
+	    var geoXml; 
+	    var toggleState = 1;
+
+	    function initialize() {
+	      if (GBrowserIsCompatible()) {
+	        geoXml = new GGeoXml("<?php bloginfo('url'); ?>/images/beastranger.kml");
+	        map = new GMap2(document.getElementById("map_canvas")); 
+	        map.setCenter(new GLatLng(41.875696,-87.624207), 11); 
+	        map.setUIToDefault();
+	        map.addOverlay(geoXml);
+	      }
+	    } 
+
+	    function toggleMyKml() {
+	      if (toggleState == 1) {
+	        map.removeOverlay(geoXml);
+	        toggleState = 0;
+	      } else {
+	        map.addOverlay(geoXml);
+	        toggleState = 1;
+	      }
+	    }
+		</script>
+		<div id="map_canvas" style="width: 848px; height: 398px;border: 1px solid #666666;"></div>
+	
+
 		
 		</div>
 		
